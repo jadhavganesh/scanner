@@ -3,7 +3,7 @@ name: Daily 44 SMA Stock Scanner
 on:
   schedule:
     # 8:00 PM IST is 2:30 PM UTC
-    - cron: '*/2 * * * *'
+    - cron: '*/6 * * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab for testing
 
 jobs:
