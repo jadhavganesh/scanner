@@ -29,4 +29,4 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: |
-          python telegram_nse.py
+          python 44MA_Darvas_Box.py
